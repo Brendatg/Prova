@@ -6,9 +6,13 @@
     <title>Cadastro de produtos</title>
     <link rel="stylesheet" href="style_navbar.css" />
     <script defer src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="header">
+    <div class="navbar">
       <nav class="nav">
         <button class="hamburguer">
         </button>
@@ -16,20 +20,52 @@
               <li><a href="index.html">Cadastro</li>
               <li><a href="index_listagem.html">Listagem</a></li>
             </ul>
-      </nav>
-      <div class="container"></div>
-        <div class="header"></div>
-          <div id="Cadastro">
-            <h1>Cadastre os produtos</h1>
+        </nav>
+      <div>
+      </header>
+          <div class= "formulario">
+          <div class="container">
+          <div class="titulo">
+            <h2>Cadastre os produtos</h2>
+          </div>
               <form id="form" class="form">
                 <div class="form-control">
-                  <label for=""></label>
-                    <input type="text" />
-                      <i></i>
-                      <i></i>
-                      <smal></smal>
-            </div>
+                  <label for="produto">Nome do produto</label>
+                    <input type="text" id="produto" placeholder="Digite o produto que deseja cadastrar."/>
+                      <i class="fa-solid fa-circle-exclamation"></i>
+                      <ic class="fas fa-check-circle"></ic>
+                      <smal>Mensagem de erro</smal>
+                      </div>
+
+                <div class="form-control">
+                  <label for="codigo">Código do produto</label>
+                    <input type="text" id="codigo" placeholder="Digite o código do produto."/>
+                      <i class="fa-solid fa-circle-exclamation"></i>
+                      <ic class="fas fa-check-circle"></ic>
+                      <smal>Mensagem de erro</smal>
+                </div>
+
+                <div class="form-control">
+                  <label for="data">Data do cadastro</label>
+                    <input type="text" id="data" placeholder="Digite a data em que está cadastrando o produto."/>
+                      <i class="fa-solid fa-circle-exclamation"></i>
+                      <ic class="fas fa-check-circle"></ic>
+                      <smal>Mensagem de erro</smal>
+                </div>
+
+                <div class="form-control">
+                  <label for="responsavel">Responsável pelo cadastro</label>
+                    <input type="text" id="responsavel" placeholder="Digite o nome do responsável pelo cadastro do produto."/>
+                      <i class="fa-solid fa-circle-exclamation"></i>
+                      <ic class="fas fa-check-circle"></ic>
+                      <smal>Mensagem de erro</smal>
+                </div>
+              
+                <button type="submit">Enviar</button>
           </form>
+        </div>
+        </div>
+        </div>
       </div>
       <div id="Listagem">
 
@@ -38,7 +74,7 @@
           <h2>Cadastre os produtos</h2>
         </div>
       </div>-->
-    </header>
     <main class="hero"></main>
+    <script src="https://kit.fontawesome.com/7ffefeff4d.js" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -7,11 +7,6 @@ a {
   text-decoration: none;
 }
 
-.header {
-  background: rgb(111, 85, 204);
-  /*padding-inline: 16px;*/
-}
-
 .nav {
   max-width: 1280px;
   height: 70px;
@@ -34,10 +29,10 @@ a {
   padding-block: 16px;
 }
 
-.hero {
+/*.hero {
   height: calc(100vh - 70px);
   background: center / cover no-repeat url(./8175419.jpg);
-}
+}*/
 
 .hamburguer {
   display: none;
